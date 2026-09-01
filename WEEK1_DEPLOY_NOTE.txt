@@ -1,0 +1,9 @@
+THE MAKERS — WEEK 1 DEPLOY FIX
+
+This package uses NEW asset filenames so an older cached season-2026.js or live.js cannot hide the Week 1 write-up.
+
+The dedicated week-01.html is now a fully static page containing the complete Week 1 column. It does not depend on JavaScript to show the article.
+
+Upload all files in the update ZIP to the ROOT of the themakersffl.github.io repository and commit them. Replace matching HTML files. The two new JS files should be added as new files.
+
+After GitHub Pages deploys, Week 1 is directly available at /week-01.html.
