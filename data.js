@@ -1,5 +1,176 @@
 window.MAKERS_DATA = {
   "seasons": {
+    "2022": {
+      "champion": "Eviscerators",
+      "champManager": "Andrew",
+      "runnerUp": "The Mustache riders",
+      "runnerManager": "TomD",
+      "third": "Predacious Fungi",
+      "thirdManager": "Max",
+      "standings": [
+        [
+          "Eviscerators",
+          "Andrew",
+          "10-4",
+          "1537.75",
+          "1336.18",
+          32
+        ],
+        [
+          "The Mustache riders",
+          "TomD",
+          "8-6",
+          "1379.50",
+          "1319.68",
+          38
+        ],
+        [
+          "Predacious Fungi",
+          "Max",
+          "11-3",
+          "1474.77",
+          "1372.33",
+          57
+        ],
+        [
+          "Raw Doggin' Randos",
+          "Jim",
+          "8-6",
+          "1544.24",
+          "1382.12",
+          46
+        ],
+        [
+          "The A Gap",
+          "Adam",
+          "6-8",
+          "1413.49",
+          "1470.08",
+          27
+        ],
+        [
+          "TDs IN YO FACE",
+          "Nick",
+          "7-7",
+          "1544.23",
+          "1484.84",
+          52
+        ],
+        [
+          "Bad Newz Kennels",
+          "Tommy",
+          "4-10",
+          "1176.17",
+          "1516.40",
+          22
+        ],
+        [
+          "Always Optimal",
+          "Chris",
+          "6-8",
+          "1272.10",
+          "1439.28",
+          29
+        ],
+        [
+          "Ninth place NATES",
+          "Nate",
+          "4-10",
+          "1340.66",
+          "1437.63",
+          18
+        ],
+        [
+          "Deshaun's Terrible Towel",
+          "El Rubio",
+          "6-8",
+          "1346.54",
+          "1270.91",
+          5
+        ]
+      ],
+      "playoffs": [
+        [
+          "Quarterfinal",
+          "The Mustache riders",
+          "124.70",
+          "TDs IN YO FACE",
+          "83.39"
+        ],
+        [
+          "Quarterfinal",
+          "Raw Doggin' Randos",
+          "117.47",
+          "The A Gap",
+          "100.30"
+        ],
+        [
+          "Semifinal",
+          "The Mustache riders",
+          "100.44",
+          "Predacious Fungi",
+          "96.10"
+        ],
+        [
+          "Semifinal",
+          "Eviscerators",
+          "97.30",
+          "Raw Doggin' Randos",
+          "93.99"
+        ],
+        [
+          "Final",
+          "Eviscerators",
+          "102.26",
+          "The Mustache riders",
+          "89.09"
+        ],
+        [
+          "3rd Place",
+          "Predacious Fungi",
+          "114.14",
+          "Raw Doggin' Randos",
+          "92.30"
+        ],
+        [
+          "5th Place",
+          "The A Gap",
+          "135.54",
+          "TDs IN YO FACE",
+          "95.41"
+        ],
+        [
+          "Consolation Semifinal",
+          "Bad Newz Kennels",
+          "90.91",
+          "Deshaun's Terrible Towel",
+          "48.53"
+        ],
+        [
+          "Consolation Semifinal",
+          "Always Optimal",
+          "145.74",
+          "Ninth place NATES",
+          "56.64"
+        ],
+        [
+          "7th Place",
+          "Bad Newz Kennels",
+          "107.46",
+          "Always Optimal",
+          "66.94"
+        ],
+        [
+          "9th Place",
+          "Ninth place NATES",
+          "117.43",
+          "Deshaun's Terrible Towel",
+          "44.16"
+        ]
+      ],
+      "keepers": [],
+      "note": "Andrew won the inaugural title after a 10-4 regular season, beating Jim by 3.31 in the semifinal and TomD 102.26–89.09 in the championship. Max went 11-3 but finished third, while Jim edged Nick for the regular-season points crown by exactly 0.01 points: 1544.24 to 1544.23."
+    },
     "2023": {
       "champion": "The Vulvarines",
       "champManager": "Jim",
@@ -198,7 +369,7 @@ window.MAKERS_DATA = {
           "R10"
         ]
       ],
-      "note": "Jim won the title despite Nick leading the regular-season points race and TomD posting the season\u2019s highest points-for total. Max somehow paired 81 moves with a 6-8 record, establishing an early league tradition: activity and wisdom are separate statistics."
+      "note": "Jim won the title despite Nick leading the regular-season points race and TomD posting the season’s highest points-for total. Max somehow paired 81 moves with a 6-8 record, establishing an early league tradition: activity and wisdom are separate statistics."
     },
     "2024": {
       "champion": "Pump and Go",
@@ -392,7 +563,7 @@ window.MAKERS_DATA = {
           "R11"
         ]
       ],
-      "note": "Tommy went 12-2 and finished the job. Max actually led the league in points, Andrew was only 19.36 points behind him, and Jim made 82 moves \u2014 the current single-season transaction-churn record."
+      "note": "Tommy went 12-2 and finished the job. Max actually led the league in points, Andrew was only 19.36 points behind him, and Jim made 82 moves — the current single-season transaction-churn record."
     },
     "2025": {
       "champion": "The Eviscerators",
@@ -580,7 +751,7 @@ window.MAKERS_DATA = {
           "R8"
         ]
       ],
-      "note": "Andrew won the title after a 9-5 regular season, beating Jim by 4.42 in the semifinal and Adam by 34.82 in the final. Jim led the league in points but finished third. Billy entered as a new manager in 2025 and starts his own history \u2014 he does not inherit El Rubio\u2019s record."
+      "note": "Andrew won the title after a 9-5 regular season, beating Jim by 4.42 in the semifinal and Adam by 34.82 in the final. Jim led the league in points but finished third. Billy entered as a new manager in 2025 and starts his own history — he does not inherit El Rubio’s record."
     }
   },
   "currentTeams": [
@@ -657,6 +828,12 @@ window.MAKERS_DATA = {
   ],
   "keepers2026": [
     [
+      "Adam",
+      "The A Gap",
+      "Rashee Rice",
+      "R3"
+    ],
+    [
       "Jim",
       "The Moose Knuckles",
       "Jaxon Smith-Njigba",
@@ -681,15 +858,15 @@ window.MAKERS_DATA = {
       "R6"
     ],
     [
-      "Nick",
-      "TDs In Your Face",
-      "Jameson Williams",
-      "R7"
-    ],
-    [
       "Andrew",
       "The Eviscerators",
       "Chris Olave",
+      "R7"
+    ],
+    [
+      "Nick",
+      "TDs In Your Face",
+      "Jameson Williams",
       "R7"
     ],
     [
@@ -715,93 +892,99 @@ window.MAKERS_DATA = {
       "Predacious Fungi",
       "Tucker Kraft",
       "R10"
+    ],
+    [
+      "Jim",
+      "The Moose Knuckles",
+      "Javonte Williams",
+      "R12"
     ]
   ],
   "franchises": [
     {
       "manager": "Chris",
       "current": "Criterus",
-      "since": 2023,
+      "since": 2022,
       "aliases": [
         "2022: Always Optimal",
-        "2023\u201326: Criterus"
+        "2023–26: Criterus"
       ]
     },
     {
       "manager": "Andrew",
       "current": "The Eviscerators",
-      "since": 2023,
+      "since": 2022,
       "aliases": [
         "2022: Eviscerators",
         "2023: Eviscerators",
         "2024: Hot Green Rain",
-        "2025\u201326: The Eviscerators"
+        "2025–26: The Eviscerators"
       ]
     },
     {
       "manager": "Nate",
       "current": "Revenge of the period bloods",
-      "since": 2023,
+      "since": 2022,
       "aliases": [
-        "2022: Ninth Place NATES",
+        "2022: Ninth place NATES",
         "2023: Period bloods",
         "2024: Double Drafters",
-        "2025\u201326: Revenge of the period bloods"
+        "2025–26: Revenge of the period bloods"
       ]
     },
     {
       "manager": "Max",
       "current": "Predacious Fungi",
-      "since": 2023,
+      "since": 2022,
       "aliases": [
-        "2022\u201326: Predacious Fungi"
+        "2022–26: Predacious Fungi"
       ]
     },
     {
       "manager": "Tommy",
       "current": "Pump and Go",
-      "since": 2023,
+      "since": 2022,
       "aliases": [
-        "2022: Deshaun\u2019s Terrible Towel",
-        "2023\u201326: Pump and Go"
+        "2022: Bad Newz Kennels",
+        "2023–26: Pump and Go"
       ]
     },
     {
       "manager": "Adam",
       "current": "The A Gap",
-      "since": 2023,
+      "since": 2022,
       "aliases": [
-        "2022\u201326: The A Gap"
+        "2022–26: The A Gap"
       ]
     },
     {
       "manager": "Nick",
       "current": "TDs In Your Face",
-      "since": 2023,
+      "since": 2022,
       "aliases": [
         "2022: TDs IN YO FACE",
         "2023: The Dink Wads",
         "2024: Massive TDs",
-        "2025\u201326: TDs In Your Face"
+        "2025–26: TDs In Your Face"
       ]
     },
     {
       "manager": "TomD",
       "current": "The Mustache riders",
-      "since": 2023,
+      "since": 2022,
       "aliases": [
-        "2022\u201326: The Mustache riders"
+        "2022–26: The Mustache riders"
       ]
     },
     {
       "manager": "Jim",
       "current": "The Moose Knuckles",
-      "since": 2023,
+      "since": 2022,
       "aliases": [
-        "2022: Raw Doggin\u2019 Randos",
+        "2022: Raw Doggin' Randos",
         "2023: The Vulvarines",
         "2024: The Silverback Maulers",
-        "2025\u201326: The Moose Knuckles"
+        "2025–26: The Moose Knuckles"
       ]
     },
     {
@@ -809,118 +992,118 @@ window.MAKERS_DATA = {
       "current": "Kareem all over your Hunt",
       "since": 2025,
       "aliases": [
-        "2025\u201326: Kareem all over your Hunt"
+        "2025–26: Kareem all over your Hunt"
       ],
-      "note": "Billy replaced El Rubio in 2025. His franchise history begins in 2025 and does not inherit El Rubio\u2019s 2023\u201324 record."
+      "note": "Billy replaced El Rubio in 2025. His franchise history begins in 2025 and does not inherit El Rubio’s 2022–24 record."
     },
     {
       "manager": "El Rubio",
       "current": "Retired / former manager",
-      "since": 2023,
+      "since": 2022,
       "aliases": [
-        "2022: Bad Newz Kennels",
-        "2023\u201324: In Brock We Trust"
+        "2022: Deshaun's Terrible Towel",
+        "2023–24: In Brock We Trust"
       ],
-      "note": "El Rubio\u2019s history stops after 2024. It remains separate from Billy\u2019s record."
+      "note": "El Rubio’s history runs from 2022 through 2024. It remains separate from Billy’s record."
     }
   ],
   "records": [
     {
-      "manager": "Tommy",
-      "w": 27,
-      "l": 15,
-      "pf": 4501.43,
-      "seasons": 3,
-      "titles": 1,
-      "best": 1,
-      "pct": 0.6428571428571429
+      "manager": "Max",
+      "w": 33,
+      "l": 23,
+      "pf": 5945.24,
+      "seasons": 4,
+      "titles": 0,
+      "best": 3,
+      "pct": 0.5892857142857143
     },
     {
       "manager": "Nick",
-      "w": 25,
-      "l": 17,
-      "pf": 4464.889999999999,
-      "seasons": 3,
+      "w": 32,
+      "l": 24,
+      "pf": 6009.119999999999,
+      "seasons": 4,
       "titles": 0,
       "best": 2,
-      "pct": 0.5952380952380952
-    },
-    {
-      "manager": "Jim",
-      "w": 23,
-      "l": 19,
-      "pf": 4380.67,
-      "seasons": 3,
-      "titles": 1,
-      "best": 1,
-      "pct": 0.5476190476190477
-    },
-    {
-      "manager": "Nate",
-      "w": 23,
-      "l": 19,
-      "pf": 4326.95,
-      "seasons": 3,
-      "titles": 0,
-      "best": 2,
-      "pct": 0.5476190476190477
-    },
-    {
-      "manager": "Max",
-      "w": 22,
-      "l": 20,
-      "pf": 4470.47,
-      "seasons": 3,
-      "titles": 0,
-      "best": 3,
-      "pct": 0.5238095238095238
-    },
-    {
-      "manager": "TomD",
-      "w": 21,
-      "l": 21,
-      "pf": 4556.15,
-      "seasons": 3,
-      "titles": 0,
-      "best": 3,
-      "pct": 0.5
+      "pct": 0.5714285714285714
     },
     {
       "manager": "Andrew",
-      "w": 21,
-      "l": 21,
-      "pf": 4459.63,
-      "seasons": 3,
+      "w": 31,
+      "l": 25,
+      "pf": 5997.379999999999,
+      "seasons": 4,
+      "titles": 2,
+      "best": 1,
+      "pct": 0.5535714285714286
+    },
+    {
+      "manager": "Jim",
+      "w": 31,
+      "l": 25,
+      "pf": 5924.91,
+      "seasons": 4,
       "titles": 1,
       "best": 1,
-      "pct": 0.5
+      "pct": 0.5535714285714286
+    },
+    {
+      "manager": "Tommy",
+      "w": 31,
+      "l": 25,
+      "pf": 5677.599999999999,
+      "seasons": 4,
+      "titles": 1,
+      "best": 1,
+      "pct": 0.5535714285714286
+    },
+    {
+      "manager": "TomD",
+      "w": 29,
+      "l": 27,
+      "pf": 5935.650000000001,
+      "seasons": 4,
+      "titles": 0,
+      "best": 2,
+      "pct": 0.5178571428571429
+    },
+    {
+      "manager": "Nate",
+      "w": 27,
+      "l": 29,
+      "pf": 5667.61,
+      "seasons": 4,
+      "titles": 0,
+      "best": 2,
+      "pct": 0.48214285714285715
     },
     {
       "manager": "Adam",
-      "w": 17,
-      "l": 25,
-      "pf": 4099.65,
-      "seasons": 3,
+      "w": 23,
+      "l": 33,
+      "pf": 5513.139999999999,
+      "seasons": 4,
       "titles": 0,
       "best": 2,
-      "pct": 0.40476190476190477
+      "pct": 0.4107142857142857
     },
     {
       "manager": "Chris",
-      "w": 13,
-      "l": 29,
-      "pf": 3864.9299999999994,
-      "seasons": 3,
+      "w": 19,
+      "l": 37,
+      "pf": 5137.03,
+      "seasons": 4,
       "titles": 0,
       "best": 99,
-      "pct": 0.30952380952380953
+      "pct": 0.3392857142857143
     },
     {
       "manager": "El Rubio",
-      "w": 12,
-      "l": 16,
-      "pf": 2821.75,
-      "seasons": 2,
+      "w": 18,
+      "l": 24,
+      "pf": 4168.29,
+      "seasons": 3,
       "titles": 0,
       "best": 99,
       "pct": 0.42857142857142855

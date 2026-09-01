@@ -21,8 +21,13 @@ IMPORTANT
 - All links are relative, so this site works correctly from a GitHub project URL.
 
 DATA NOTES
-- 2023–2025 standings/playoffs are transcribed from the Yahoo screenshots supplied in chat.
+- 2022–2025 standings/playoffs are transcribed from the Yahoo screenshots supplied in chat.
 - 2026 Yahoo grades/projected standings/power scores are the preseason snapshot supplied in chat.
-- Billy begins a fresh manager history in 2025 and does not inherit El Rubio’s 2023–24 record.
+- Billy begins a fresh manager history in 2025 and does not inherit El Rubio’s 2022–24 record.
 - 2024 and 2025 keeper corrections are applied.
 - 2026 keeper list is the locked list identified from the 2026 draft board and ownership trail.
+
+2022 incorporation update:
+- The archive now begins with the inaugural 2022 season.
+- 2022 standings, playoffs, manager/team aliases, draft boards, move counts, and career-record totals are included.
+- 2022 had no keepers because it was the first season.
