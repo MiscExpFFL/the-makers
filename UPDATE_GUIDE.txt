@@ -1,0 +1,32 @@
+THE MAKERS — 2026 WEEKLY UPDATE GUIDE
+
+The site now uses the same central-season architecture as Misc.Exp.
+
+PRIMARY FILE TO EDIT EACH WEEK
+  season-2026.js
+
+Update these fields there:
+  - week / lastUpdated
+  - standings (W-L, PF, PA, moves, trades)
+  - weekly[week] (headline, writeup, matchups, Game of the Week, awards, shame watch, quote)
+  - powerRankings when the weekly Power Rankings change
+  - draftRankings stays frozen as the preseason draft verdict
+  - modelOdds if playoff/bye/title/toilet probabilities change
+  - faab / recentTransactions / topAvailable
+
+Those edits automatically feed:
+  - Homepage latest write-up
+  - Weekly Write-Ups hub
+  - Week 1–17 pages
+  - 2026 War Room
+  - Power Rankings
+  - Playoff Odds
+  - Moves & Trades
+  - Waiver Wire
+  - Record Book
+
+YAHOO LIVE BRIDGE
+  api-config.js contains a blank waiverEndpoint. Keep Yahoo credentials off GitHub. When a secure backend is ready, only put the public endpoint URL in api-config.js.
+
+STATIC HISTORY FILE
+  data.js remains the historical 2022–2025 archive plus the locked 2026 draft/schedule/keeper baseline. Do not rewrite old history to perform ordinary weekly updates.
