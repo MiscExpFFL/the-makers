@@ -1,0 +1,45 @@
+name: Build Makers Weekly Collector
+
+on:
+  push:
+    paths:
+      - '.github/scripts/build-makers-collector.py'
+      - '.github/workflows/build-makers-collector.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Makers collector from proven MEFFL v1.2.4 engine
+        run: python .github/scripts/build-makers-collector.py
+
+      - name: Syntax check
+        run: node --check Makers_Weekly_Collector.user.js
+
+      - name: Verify Makers isolation and upgraded data sections
+        run: |
+          grep -q "makers-weekly-collector/v2" Makers_Weekly_Collector.user.js
+          grep -q "EXPECTED_LEAGUE_ID='471058'" Makers_Weekly_Collector.user.js
+          grep -q "completedLineups" Makers_Weekly_Collector.user.js
+          grep -q "Score reconciliation" Makers_Weekly_Collector.user.js
+          grep -q "compactTransactions" Makers_Weekly_Collector.user.js
+          ! grep -q "MEFFL:weeklyCollector" Makers_Weekly_Collector.user.js
+          cmp Makers_Weekly_Collector.user.js Makers_Weekly_Collector_v1.2.4.txt
+
+      - name: Commit generated collector
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Makers_Weekly_Collector.user.js Makers_Weekly_Collector_v1.2.4.txt
+          if git diff --cached --quiet; then
+            echo "Makers collector already current."
+            exit 0
+          fi
+          git commit -m "Upgrade Makers weekly collector to v1.2.4"
+          git push
