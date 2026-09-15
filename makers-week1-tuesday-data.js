@@ -1,0 +1,393 @@
+window.MAKERS_TUESDAY = {
+  "season": 2026,
+  "phase": "Tuesday",
+  "currentWeek": 2,
+  "completedWeek": 1,
+  "updatedAt": "September 15, 2026 · Post-MNF",
+  "standings": [
+    {
+      "rank": 1,
+      "team": "The Mustache riders",
+      "manager": "TomD",
+      "record": "1-0-0",
+      "w": 1,
+      "l": 0,
+      "pf": 187.86,
+      "pa": 107.46,
+      "streak": "W-1",
+      "faab": 100,
+      "waiverPriority": 10
+    },
+    {
+      "rank": 2,
+      "team": "The Moose Knuckles",
+      "manager": "Jim",
+      "record": "1-0-0",
+      "w": 1,
+      "l": 0,
+      "pf": 125.6,
+      "pa": 80.1,
+      "streak": "W-1",
+      "faab": 99,
+      "waiverPriority": 9
+    },
+    {
+      "rank": 3,
+      "team": "The Eviscerators",
+      "manager": "Andrew",
+      "record": "1-0-0",
+      "w": 1,
+      "l": 0,
+      "pf": 118.56,
+      "pa": 86.26,
+      "streak": "W-1",
+      "faab": 95,
+      "waiverPriority": 8
+    },
+    {
+      "rank": 4,
+      "team": "Criterus",
+      "manager": "Chris",
+      "record": "1-0-0",
+      "w": 1,
+      "l": 0,
+      "pf": 110.82,
+      "pa": 105.12,
+      "streak": "W-1",
+      "faab": 100,
+      "waiverPriority": 7
+    },
+    {
+      "rank": 5,
+      "team": "Kareem all over your Hunt",
+      "manager": "Billy",
+      "record": "1-0-0",
+      "w": 1,
+      "l": 0,
+      "pf": 103.7,
+      "pa": 97.86,
+      "streak": "W-1",
+      "faab": 100,
+      "waiverPriority": 6
+    },
+    {
+      "rank": 6,
+      "team": "Pump and Go",
+      "manager": "Tommy",
+      "record": "0-1-0",
+      "w": 0,
+      "l": 1,
+      "pf": 107.46,
+      "pa": 187.86,
+      "streak": "L-1",
+      "faab": 100,
+      "waiverPriority": 5
+    },
+    {
+      "rank": 7,
+      "team": "The A Gap",
+      "manager": "Adam",
+      "record": "0-1-0",
+      "w": 0,
+      "l": 1,
+      "pf": 105.12,
+      "pa": 110.82,
+      "streak": "L-1",
+      "faab": 100,
+      "waiverPriority": 4
+    },
+    {
+      "rank": 8,
+      "team": "TDs In Your Face",
+      "manager": "Nick",
+      "record": "0-1-0",
+      "w": 0,
+      "l": 1,
+      "pf": 97.86,
+      "pa": 103.7,
+      "streak": "L-1",
+      "faab": 99,
+      "waiverPriority": 3
+    },
+    {
+      "rank": 9,
+      "team": "Revenge of the period bloods",
+      "manager": "Nate",
+      "record": "0-1-0",
+      "w": 0,
+      "l": 1,
+      "pf": 86.26,
+      "pa": 118.56,
+      "streak": "L-1",
+      "faab": 100,
+      "waiverPriority": 2
+    },
+    {
+      "rank": 10,
+      "team": "Predacious Fungi",
+      "manager": "Max",
+      "record": "0-1-0",
+      "w": 0,
+      "l": 1,
+      "pf": 80.1,
+      "pa": 125.6,
+      "streak": "L-1",
+      "faab": 100,
+      "waiverPriority": 1
+    }
+  ],
+  "week1Finals": [
+    {
+      "week": "Week 1",
+      "teamA": "Revenge of the period bloods",
+      "managerA": "Nate",
+      "scoreA": 86.26,
+      "teamB": "The Eviscerators",
+      "managerB": "Andrew",
+      "scoreB": 118.56
+    },
+    {
+      "week": "Week 1",
+      "teamA": "The Moose Knuckles",
+      "managerA": "Jim",
+      "scoreA": 125.6,
+      "teamB": "Predacious Fungi",
+      "managerB": "Max",
+      "scoreB": 80.1
+    },
+    {
+      "week": "Week 1",
+      "teamA": "TDs In Your Face",
+      "managerA": "Nick",
+      "scoreA": 97.86,
+      "teamB": "Kareem all over your Hunt",
+      "managerB": "Billy",
+      "scoreB": 103.7
+    },
+    {
+      "week": "Week 1",
+      "teamA": "Pump and Go",
+      "managerA": "Tommy",
+      "scoreA": 107.46,
+      "teamB": "The Mustache riders",
+      "managerB": "TomD",
+      "scoreB": 187.86
+    },
+    {
+      "week": "Week 1",
+      "teamA": "Criterus",
+      "managerA": "Chris",
+      "scoreA": 110.82,
+      "teamB": "The A Gap",
+      "managerB": "Adam",
+      "scoreB": 105.12
+    }
+  ],
+  "week2Yahoo": [
+    {"teamA":"The Eviscerators","teamB":"The A Gap","projA":113.3,"projB":100.5},
+    {"teamA":"The Moose Knuckles","teamB":"TDs In Your Face","projA":114.13,"projB":105.53},
+    {"teamA":"Criterus","teamB":"The Mustache riders","projA":103.43,"projB":100.46},
+    {"teamA":"Pump and Go","teamB":"Kareem all over your Hunt","projA":101.33,"projB":101.21},
+    {"teamA":"Predacious Fungi","teamB":"Revenge of the period bloods","projA":99.96,"projB":84.49}
+  ],
+  "leagueAverage":112.33,"week1High":187.86,"week1Low":80.1,"closestMargin":5.7,"biggestMargin":80.4,
+  "storylines":[
+    {"title":"TomD just reset the weekly ceiling","copy":"187.86 is the new modern-era regular-season single-week record. The Mustache riders jumped from preseason #7 to #4 in the Tuesday Power Index, but the 100.46 Week 2 Yahoo projection keeps us from treating one explosion like a finished season."},
+    {"title":"The top preseason trio all survived Week 1","copy":"Chris, Andrew and Jim — our preseason top three — all opened 1-0. Jim now takes the Tuesday #1 spot because 125.60 in Week 1 is backed by the league-high 114.13 Week 2 projection."},
+    {"title":"Billy won the model fight","copy":"Both the Makers model and Yahoo picked Nick. Billy won 103.70–97.86 anyway, set a 100% optimal lineup and got 13 points from a $0 Jaguars claim. That is exactly how a high-variance roster changes its reputation."},
+    {"title":"Nate and Max already need answers","copy":"Nate scored 86.26 and owns the lowest Tuesday Week 2 projection at 84.49. Max scored 80.10 despite a 97.2% efficient lineup, which makes quarterback and overall ceiling the early emergency."},
+    {"title":"The prediction models were good — not perfect","copy":"The Makers model and Yahoo both finished Week 1 at 4-1. Billy over Nick was the shared miss. Yahoo's average absolute team-score error was 16.02 points, inflated heavily by TomD's 84.19-point projection miss."}
+  ],
+  "headline":"187.86: TomD Detonates Week 1, Billy Steals One, and the League Immediately Gets Weird",
+  "recapIntro":"Week 1 gave us a scoring record, one shared model miss, two perfect lineup cards and immediate pressure at the bottom of the board. TomD supplied the explosion; Billy supplied the upset; Chris survived the closest finish.",
+  "gameOfWeek":"Criterus 110.82 — The A Gap 105.12",
+  "gameRecaps":[
+    {"a":"The Mustache riders","b":"Pump and Go","sa":187.86,"sb":107.46,"margin":80.4,"label":"THE RECORD BOOK GAME","copy":"TomD did not ease into 2026. Caleb Williams scored 39.76, Kenneth Walker added 32.60, Christian Watson dropped 29.70 and Zay Flowers added 24.50 as The Mustache riders reached 187.86 — a new modern-era regular-season weekly scoring record. Tommy actually scored a respectable 107.46 behind Josh Allen's 38.66. It simply did not matter against the avalanche."},
+    {"a":"The Moose Knuckles","b":"Predacious Fungi","sa":125.6,"sb":80.1,"margin":45.5,"label":"THE CONTROLLED BEATING","copy":"Jim's veteran-heavy build looked exactly like the version he drafted it to be. Derrick Henry went for 34.80, Jaxon Smith-Njigba scored 21.20 and Javonte Williams added 20.20. Max managed his lineup efficiently — 97.2% of optimal — but an 80.10 team score says the problem was ceiling, not buttons."},
+    {"a":"The Eviscerators","b":"Revenge of the period bloods","sa":118.56,"sb":86.26,"margin":32.3,"label":"THE DEFENDING CHAMP STARTS CLEAN","copy":"Andrew opened the title defense with a comfortable 118.56. Bijan Robinson, Chris Olave, Breece Hall and Nico Collins carried the starting lineup, and the Eviscerators won even with 19.94 points of optimal value left unused. Nate got 31.90 from D'Andre Swift and 27.46 from Lamar Jackson, but too little around them."},
+    {"a":"Kareem all over your Hunt","b":"TDs In Your Face","sa":103.7,"sb":97.86,"margin":5.84,"label":"THE UPSET","copy":"Billy delivered the only result that beat both the Makers model and Yahoo. Trevor Lawrence scored 30.10, the $0 Jaguars waiver claim returned 13.00, and Billy set a perfect optimal lineup. Nick got 29.10 from Jahmyr Gibbs and 18.00 from the newly acquired Steelers defense, but left 22.00 points of optimal value unused."},
+    {"a":"Criterus","b":"The A Gap","sa":110.82,"sb":105.12,"margin":5.7,"label":"GAME OF THE WEEK","copy":"The closest game of Week 1 went to Chris by 5.70. Jalen Hurts, Justin Jefferson and Jonathan Taylor carried Criterus, while Adam countered with 27.70 from Ashton Jeanty and 26.40 from David Montgomery. Chuba Hubbard's 21.70 on Chris's bench is the receipt that keeps the win from feeling completely clean."}
+  ],
+  "awards":[
+    {"award":"WEEKLY MVP","winner":"TomD — The Mustache riders","copy":"187.86 points, a new modern-era weekly scoring record, and 100% lineup efficiency."},
+    {"award":"PLAYER NUKE","winner":"Caleb Williams — 39.76","copy":"The highest starter score in the league and the centerpiece of TomD's record-setting week."},
+    {"award":"GAME OF THE WEEK","winner":"Criterus 110.82, The A Gap 105.12","copy":"Chris escaped Adam by 5.70, the closest margin of the opening week."},
+    {"award":"UPSET OF THE WEEK","winner":"Billy over Nick","copy":"The only result both the Makers model and Yahoo missed."},
+    {"award":"WAIVER RECEIPT","winner":"Isaiah Likely — 22.80","copy":"TomD added him on Sep. 10 and immediately got 22.80 starter points."},
+    {"award":"BENCH TAX","winner":"Nick — 22.00 points left","copy":"The largest gap between actual and optimal lineup score in Week 1."},
+    {"award":"WRONG PLACE, WRONG WEEK","winner":"Tommy — 107.46","copy":"A middle-of-the-pack score ran directly into 187.86."},
+    {"award":"PERFECT CLIPBOARD","winner":"TomD & Billy","copy":"Both managers hit 100% of their optimal Week 1 lineup."}
+  ],
+  "allPlay":[
+    {"rank":1,"team":"The Mustache riders","manager":"TomD","score":187.86,"w":9,"l":0},
+    {"rank":2,"team":"The Moose Knuckles","manager":"Jim","score":125.6,"w":8,"l":1},
+    {"rank":3,"team":"The Eviscerators","manager":"Andrew","score":118.56,"w":7,"l":2},
+    {"rank":4,"team":"Criterus","manager":"Chris","score":110.82,"w":6,"l":3},
+    {"rank":5,"team":"Pump and Go","manager":"Tommy","score":107.46,"w":5,"l":4},
+    {"rank":6,"team":"The A Gap","manager":"Adam","score":105.12,"w":4,"l":5},
+    {"rank":7,"team":"Kareem all over your Hunt","manager":"Billy","score":103.7,"w":3,"l":6},
+    {"rank":8,"team":"TDs In Your Face","manager":"Nick","score":97.86,"w":2,"l":7},
+    {"rank":9,"team":"Revenge of the period bloods","manager":"Nate","score":86.26,"w":1,"l":8},
+    {"rank":10,"team":"Predacious Fungi","manager":"Max","score":80.1,"w":0,"l":9}
+  ],
+  "lineupAnalytics":[
+    {"manager":"TomD","team":"The Mustache riders","actual":187.86,"optimal":187.86,"left":0,"efficiency":100,"topStarter":"Caleb Williams 39.76","topBench":"Jaxson Dart 29.60","allPlay":"9-0"},
+    {"manager":"Jim","team":"The Moose Knuckles","actual":125.6,"optimal":133.76,"left":8.16,"efficiency":93.9,"topStarter":"Derrick Henry 34.80","topBench":"Jayden Daniels 19.66","allPlay":"8-1"},
+    {"manager":"Andrew","team":"The Eviscerators","actual":118.56,"optimal":138.5,"left":19.94,"efficiency":85.6,"topStarter":"Bijan Robinson 24.30","topBench":"Brock Purdy 24.10","allPlay":"7-2"},
+    {"manager":"Chris","team":"Criterus","actual":110.82,"optimal":124.92,"left":14.1,"efficiency":88.7,"topStarter":"Jalen Hurts 28.72","topBench":"Chuba Hubbard 21.70","allPlay":"6-3"},
+    {"manager":"Tommy","team":"Pump and Go","actual":107.46,"optimal":112.56,"left":5.1,"efficiency":95.5,"topStarter":"Josh Allen 38.66","topBench":"Tyler Warren 7.80","allPlay":"5-4"},
+    {"manager":"Adam","team":"The A Gap","actual":105.12,"optimal":115.62,"left":10.5,"efficiency":90.9,"topStarter":"Ashton Jeanty 27.70","topBench":"Jacory Croskey-Merritt 11.60","allPlay":"4-5"},
+    {"manager":"Billy","team":"Kareem all over your Hunt","actual":103.7,"optimal":103.7,"left":0,"efficiency":100,"topStarter":"Trevor Lawrence 30.10","topBench":"Ravens DEF 6.00","allPlay":"3-6"},
+    {"manager":"Nick","team":"TDs In Your Face","actual":97.86,"optimal":119.86,"left":22,"efficiency":81.6,"topStarter":"Jahmyr Gibbs 29.10","topBench":"Kyle Monangai 19.40","allPlay":"2-7"},
+    {"manager":"Nate","team":"Revenge of the period bloods","actual":86.26,"optimal":103.76,"left":17.5,"efficiency":83.1,"topStarter":"D'Andre Swift 31.90","topBench":"Parker Washington 16.20","allPlay":"1-8"},
+    {"manager":"Max","team":"Predacious Fungi","actual":80.1,"optimal":82.4,"left":2.3,"efficiency":97.2,"topStarter":"Malik Willis 16.70","topBench":"Garrett Wilson 9.40","allPlay":"0-9"}
+  ],
+  "power":[
+    {"rank":1,"manager":"Jim","team":"The Moose Knuckles","index":96.1,"preRank":3,"movement":2,"record":"1-0","pf":125.6,"ppg":125.6,"streak":"W-1","w2Proj":114.13,"grade":"A","good":"125.60 and an 8-1 all-play week backed up the preseason case; Yahoo already has this lineup at 114.13 for Week 2.","worry":"Age at a few core spots is still the long-view risk, but Week 1 gave no reason to downgrade the build."},
+    {"rank":2,"manager":"Andrew","team":"The Eviscerators","index":94.9,"preRank":2,"movement":0,"record":"1-0","pf":118.56,"ppg":118.56,"streak":"W-1","w2Proj":113.3,"grade":"A","good":"A clean 118.56 win, a 7-2 all-play mark and a 113.30 Week 2 projection keep the defending champ on the top line.","worry":"Andrew left 19.94 points of optimal-lineup value unused. The roster is deep enough that weekly choices can become the problem."},
+    {"rank":3,"manager":"Chris","team":"Criterus","index":92.3,"preRank":1,"movement":-2,"record":"1-0","pf":110.82,"ppg":110.82,"streak":"W-1","w2Proj":103.43,"grade":"A-","good":"The preseason #1 opened 1-0, scored 110.82 and still owns one of the deepest starting cores in the league.","worry":"Chuba Hubbard's 21.70 on the bench is the first reminder that depth only helps if the right pieces get deployed."},
+    {"rank":4,"manager":"TomD","team":"The Mustache riders","index":82.2,"preRank":7,"movement":3,"record":"1-0","pf":187.86,"ppg":187.86,"streak":"W-1","w2Proj":100.46,"grade":"A+","good":"187.86 is a new modern-era regular-season scoring record, and the lineup was 100% optimal. That is the loudest Week 1 statement possible.","worry":"One nuclear week does not erase the preseason depth questions; the Tuesday Week 2 Yahoo projection is a more ordinary 100.46."},
+    {"rank":5,"manager":"Tommy","team":"Pump and Go","index":81.2,"preRank":4,"movement":-1,"record":"0-1","pf":107.46,"ppg":107.46,"streak":"L-1","w2Proj":101.33,"grade":"B+","good":"Josh Allen delivered 38.66 and 107.46 would have been a respectable opening score in most matchups.","worry":"The actual result was an 80.40-point loss because TomD broke the league scoring record. Do not confuse the ugly record with a total roster collapse."},
+    {"rank":6,"manager":"Billy","team":"Kareem all over your Hunt","index":76.6,"preRank":8,"movement":2,"record":"1-0","pf":103.7,"ppg":103.7,"streak":"W-1","w2Proj":101.21,"grade":"B+","good":"Billy beat the only game both prediction systems missed, set a 100% lineup, and got 13 points from a $0 Jaguars waiver claim.","worry":"The roster remains youth-heavy and the Week 2 projection is only 101.21, so the upset is evidence, not a complete reclassification."},
+    {"rank":7,"manager":"Adam","team":"The A Gap","index":74.6,"preRank":6,"movement":-1,"record":"0-1","pf":105.12,"ppg":105.12,"streak":"L-1","w2Proj":100.5,"grade":"B","good":"Jeanty and Montgomery carried a 105.12 effort that lost by only 5.70. The roster was much closer to a win than the 0-1 label suggests.","worry":"The quarterback churn is already active, and the offense needs a steadier weekly ceiling around the running backs."},
+    {"rank":8,"manager":"Nick","team":"TDs In Your Face","index":73.8,"preRank":9,"movement":1,"record":"0-1","pf":97.86,"ppg":97.86,"streak":"L-1","w2Proj":105.53,"grade":"B","good":"Gibbs and the new Steelers defense gave Nick real spike weeks, and Yahoo still projects 105.53 for Week 2.","worry":"Nick left a league-high 22.00 points on the table. Week 1 was more management miss than talent failure."},
+    {"rank":9,"manager":"Nate","team":"Revenge of the period bloods","index":68.3,"preRank":5,"movement":-4,"record":"0-1","pf":86.26,"ppg":86.26,"streak":"L-1","w2Proj":84.49,"grade":"C+","good":"Lamar and D'Andre Swift still provide weekly ceiling, and the roster has enough veteran names to recover.","worry":"86.26 in Week 1 and an 84.49 Tuesday projection for Week 2 put the early pressure on immediately."},
+    {"rank":10,"manager":"Max","team":"Predacious Fungi","index":61.7,"preRank":10,"movement":0,"record":"0-1","pf":80.1,"ppg":80.1,"streak":"L-1","w2Proj":99.96,"grade":"C","good":"The lineup was actually efficient at 97.2%, so the problem was not a catastrophic set of start/sit calls.","worry":"An 80.10 opener, 0-9 all-play result and unsettled quarterback ceiling make QB the clearest urgent fix on the board."}
+  ],
+  "odds":[
+    {"team":"The Eviscerators","manager":"Andrew","playoff":94.7,"bye":53.4,"title":28.3,"toilet":0.3,"avgSeed":2.83,"seedRange":"1–5","expWins":9.12},
+    {"team":"The Moose Knuckles","manager":"Jim","playoff":94.4,"bye":52.9,"title":30.2,"toilet":0.2,"avgSeed":2.85,"seedRange":"1–6","expWins":9.03},
+    {"team":"Criterus","manager":"Chris","playoff":91.2,"bye":41.1,"title":21.4,"toilet":0.6,"avgSeed":3.35,"seedRange":"1–6","expWins":8.66},
+    {"team":"The Mustache riders","manager":"TomD","playoff":80.2,"bye":23.8,"title":8.2,"toilet":2.3,"avgSeed":4.4,"seedRange":"1–8","expWins":7.57},
+    {"team":"Kareem all over your Hunt","manager":"Billy","playoff":63.5,"bye":10.8,"title":3.5,"toilet":6.2,"avgSeed":5.58,"seedRange":"2–9","expWins":7.07},
+    {"team":"Pump and Go","manager":"Tommy","playoff":60.7,"bye":8.8,"title":4.8,"toilet":5.0,"avgSeed":5.78,"seedRange":"3–9","expWins":6.73},
+    {"team":"The A Gap","manager":"Adam","playoff":37.2,"bye":3.2,"title":1.6,"toilet":12.4,"avgSeed":7.04,"seedRange":"4–10","expWins":5.77},
+    {"team":"TDs In Your Face","manager":"Nick","playoff":37.2,"bye":3.5,"title":1.4,"toilet":13.4,"avgSeed":7.03,"seedRange":"4–10","expWins":5.86},
+    {"team":"Revenge of the period bloods","manager":"Nate","playoff":26.6,"bye":1.8,"title":0.5,"toilet":21.8,"avgSeed":7.66,"seedRange":"5–10","expWins":5.44},
+    {"team":"Predacious Fungi","manager":"Max","playoff":14.3,"bye":0.6,"title":0.1,"toilet":37.9,"avgSeed":8.48,"seedRange":"6–10","expWins":4.76}
+  ],
+  "stock":[
+    {"rank":1,"manager":"Jim","team":"The Moose Knuckles","record":"1-0","price":134.9,"signal":"BUY","powerIndex":96.1,"playoff":94.4,"title":30.2,"toilet":0.2},
+    {"rank":2,"manager":"Andrew","team":"The Eviscerators","record":"1-0","price":133.6,"signal":"HOLD","powerIndex":94.9,"playoff":94.7,"title":28.3,"toilet":0.3},
+    {"rank":3,"manager":"Chris","team":"Criterus","record":"1-0","price":128.1,"signal":"HOLD","powerIndex":92.3,"playoff":91.2,"title":21.4,"toilet":0.6},
+    {"rank":4,"manager":"TomD","team":"The Mustache riders","record":"1-0","price":113.8,"signal":"BUY","powerIndex":82.2,"playoff":80.2,"title":8.2,"toilet":2.3},
+    {"rank":5,"manager":"Tommy","team":"Pump and Go","record":"0-1","price":104.9,"signal":"HOLD","powerIndex":81.2,"playoff":60.7,"title":4.8,"toilet":5.0},
+    {"rank":6,"manager":"Billy","team":"Kareem all over your Hunt","record":"1-0","price":103.3,"signal":"BUY","powerIndex":76.6,"playoff":63.5,"title":3.5,"toilet":6.2},
+    {"rank":7,"manager":"Adam","team":"The A Gap","record":"0-1","price":92.3,"signal":"HOLD","powerIndex":74.6,"playoff":37.2,"title":1.6,"toilet":12.4},
+    {"rank":8,"manager":"Nick","team":"TDs In Your Face","record":"0-1","price":91.9,"signal":"HOLD","powerIndex":73.8,"playoff":37.2,"title":1.4,"toilet":13.4},
+    {"rank":9,"manager":"Nate","team":"Revenge of the period bloods","record":"0-1","price":85.3,"signal":"SELL","powerIndex":68.3,"playoff":26.6,"title":0.5,"toilet":21.8},
+    {"rank":10,"manager":"Max","team":"Predacious Fungi","record":"0-1","price":77.8,"signal":"SELL","powerIndex":61.7,"playoff":14.3,"title":0.1,"toilet":37.9}
+  ],
+  "needs":[
+    {"manager":"Jim","team":"The Moose Knuckles","need":"Hold / depth","priority":"LOW","copy":"The roster opened with 125.60 and carries the highest Tuesday Week 2 projection at 114.13. No emergency move; shop for WR/RB depth only if the price is cheap.","targets":"Deebo Samuel Sr. / Khalil Shakir as luxury WR depth"},
+    {"manager":"Andrew","team":"The Eviscerators","need":"Lineup consolidation","priority":"LOW","copy":"The roster is deep enough to create start/sit pain. Andrew left 19.94 optimal points unused but still won by 32.30. The goal is not adding names; it is turning depth into clearer weekly decisions.","targets":"Hold FAAB; consider consolidation rather than churn"},
+    {"manager":"Chris","team":"Criterus","need":"Flex deployment","priority":"MEDIUM","copy":"Chuba Hubbard scored 21.70 on the bench. The roster is good; the immediate job is making the bench less expensive in points.","targets":"Hold core; monitor Deebo Samuel Sr. if a usable flex upgrade is needed"},
+    {"manager":"TomD","team":"The Mustache riders","need":"RB depth","priority":"LOW","copy":"A 187.86 record-setter and 100% lineup efficiency do not call for surgery. The thin point is still behind Kenneth Walker and Travis Etienne.","targets":"Woody Marks / George Holani"},
+    {"manager":"Tommy","team":"Pump and Go","need":"Flex + defense","priority":"MEDIUM","copy":"107.46 was not a disaster; drawing the highest score in modern-era history was. The Titans defense returned 0, so streaming defense is the easiest clean upgrade.","targets":"Buccaneers DEF / 49ers DEF / Khalil Shakir"},
+    {"manager":"Billy","team":"Kareem all over your Hunt","need":"Depth, not panic","priority":"LOW","copy":"Billy went 1-0 with a perfect lineup and got 13 points from a $0 Jaguars claim. Keep the youth bets, but add stable depth when it appears.","targets":"Khalil Shakir / Woody Marks"},
+    {"manager":"Adam","team":"The A Gap","need":"QB stability","priority":"HIGH","copy":"Adam has already cycled through Kyler Murray and Bo Nix. The backfield carried Week 1; quarterback is where the weekly floor can be stabilized.","targets":"C.J. Stroud first; Matthew Stafford / Jordan Love if truly available"},
+    {"manager":"Nick","team":"TDs In Your Face","need":"WR/Flex floor","priority":"MEDIUM","copy":"Mark Andrews fixed the draft-day TE hole, but Nick still left 22.00 points on the bench in Week 1. Add floor, then make cleaner weekly choices.","targets":"Deebo Samuel Sr. / Jalen Coker / Khalil Shakir"},
+    {"manager":"Nate","team":"Revenge of the period bloods","need":"RB/Flex scoring","priority":"HIGH","copy":"The Week 1 score was 86.26 and Tuesday's Week 2 projection is only 84.49, lowest in the league. This is the clearest need for usable weekly points.","targets":"Woody Marks / Deebo Samuel Sr. / Khalil Shakir"},
+    {"manager":"Max","team":"Predacious Fungi","need":"Quarterback","priority":"URGENT","copy":"The lineup was 97.2% efficient and still scored 80.10. That points to roster ceiling more than management. Quarterback is the cleanest place to attack.","targets":"C.J. Stroud; Stafford / Jordan Love if Yahoo availability holds"}
+  ],
+  "topAvailable": {
+    "QB":[{"name":"C.J. Stroud","pos":"QB","nflTeam":"HOU","status":"","opponent":"CIN","projected":20.68,"rosteredPct":29},{"name":"Matthew Stafford","pos":"QB","nflTeam":"LAR","status":"","opponent":"NYG","projected":19.77,"rosteredPct":91},{"name":"Jordan Love","pos":"QB","nflTeam":"GB","status":"","opponent":"NYJ","projected":19.7,"rosteredPct":68},{"name":"Patrick Mahomes","pos":"QB","nflTeam":"KC","status":"","opponent":"IND","projected":18.9,"rosteredPct":86},{"name":"Kyler Murray","pos":"QB","nflTeam":"MIN","status":"Q","opponent":"CHI","projected":18.52,"rosteredPct":74}],
+    "RB":[{"name":"Woody Marks","pos":"RB","nflTeam":"HOU","status":"","opponent":"CIN","projected":7.07,"rosteredPct":49},{"name":"George Holani","pos":"RB","nflTeam":"SEA","status":"","opponent":"ARI","projected":6.17,"rosteredPct":4},{"name":"Chris Brooks","pos":"RB","nflTeam":"GB","status":"","opponent":"NYJ","projected":5.36,"rosteredPct":2},{"name":"Braelon Allen","pos":"RB","nflTeam":"NYJ","status":"","opponent":"GB","projected":5.19,"rosteredPct":15},{"name":"Emmett Johnson","pos":"RB","nflTeam":"KC","status":"","opponent":"IND","projected":4.31,"rosteredPct":20}],
+    "WR":[{"name":"Deebo Samuel Sr.","pos":"WR","nflTeam":"SF","status":"","opponent":"MIA","projected":8.81,"rosteredPct":49},{"name":"Jalen Coker","pos":"WR","nflTeam":"CAR","status":"Q","opponent":"ATL","projected":8.44,"rosteredPct":62},{"name":"Khalil Shakir","pos":"WR","nflTeam":"BUF","status":"","opponent":"DET","projected":7.71,"rosteredPct":43},{"name":"Rashid Shaheed","pos":"WR","nflTeam":"SEA","status":"","opponent":"ARI","projected":7.18,"rosteredPct":46},{"name":"Devaughn Vele","pos":"WR","nflTeam":"NO","status":"","opponent":"BAL","projected":6.85,"rosteredPct":9}],
+    "TE":[{"name":"Dalton Kincaid","pos":"TE","nflTeam":"BUF","status":"","opponent":"DET","projected":9.01,"rosteredPct":92},{"name":"Hunter Henry","pos":"TE","nflTeam":"NE","status":"","opponent":"PIT","projected":7.68,"rosteredPct":54},{"name":"Travis Kelce","pos":"TE","nflTeam":"KC","status":"","opponent":"IND","projected":7.5,"rosteredPct":94},{"name":"Dallas Goedert","pos":"TE","nflTeam":"PHI","status":"","opponent":"TEN","projected":7.09,"rosteredPct":92},{"name":"Dalton Schultz","pos":"TE","nflTeam":"HOU","status":"","opponent":"CIN","projected":6.82,"rosteredPct":48}],
+    "K":[{"name":"Harrison Mevis","pos":"K","nflTeam":"LAR","status":"","opponent":"NYG","projected":7.76,"rosteredPct":68},{"name":"Tyler Loop","pos":"K","nflTeam":"BAL","status":"","opponent":"NO","projected":7.6,"rosteredPct":85},{"name":"Trey Smack","pos":"K","nflTeam":"GB","status":"","opponent":"NYJ","projected":7.4,"rosteredPct":15},{"name":"Tyler Bass","pos":"K","nflTeam":"BUF","status":"","opponent":"DET","projected":7.38,"rosteredPct":9},{"name":"Cairo Santos","pos":"K","nflTeam":"CHI","status":"","opponent":"MIN","projected":7.37,"rosteredPct":48}],
+    "DEF":[{"name":"Buccaneers","pos":"DEF","nflTeam":"TB","status":"","opponent":"CLE","projected":8.04,"rosteredPct":7},{"name":"49ers","pos":"DEF","nflTeam":"SF","status":"","opponent":"MIA","projected":7.5,"rosteredPct":12},{"name":"Bears","pos":"DEF","nflTeam":"CHI","status":"","opponent":"MIN","projected":7.07,"rosteredPct":8},{"name":"Chiefs","pos":"DEF","nflTeam":"KC","status":"","opponent":"IND","projected":6.84,"rosteredPct":13},{"name":"Panthers","pos":"DEF","nflTeam":"CAR","status":"","opponent":"ATL","projected":6.13,"rosteredPct":1}]
+  },
+  "transactions":[
+    {"team":"The A Gap","manager":"Adam","type":"ADD_DROP","time":"Sep 13, 5:34 pm","faabSpent":null,"added":["Bo Nix"],"dropped":["Kyler Murray"],"description":"Added Bo Nix · Dropped Kyler Murray"},
+    {"team":"The A Gap","manager":"Adam","type":"ADD_DROP","time":"Sep 13, 11:43 am","faabSpent":null,"added":["Kyler Murray"],"dropped":[],"description":"Added Kyler Murray"},
+    {"team":"The Mustache riders","manager":"TomD","type":"ADD_DROP","time":"Sep 10, 7:09 pm","faabSpent":null,"added":["Chris Bell"],"dropped":["Woody Marks"],"description":"Added Chris Bell · Dropped Woody Marks"},
+    {"team":"The Mustache riders","manager":"TomD","type":"ADD_DROP","time":"Sep 10, 3:29 pm","faabSpent":null,"added":["Isaiah Likely"],"dropped":[],"description":"Added Isaiah Likely"},
+    {"team":"Revenge of the period bloods","manager":"Nate","type":"ADD_DROP","time":"Sep 6, 12:26 pm","faabSpent":null,"added":["Josh Downs"],"dropped":["Trevor Etienne"],"description":"Added Josh Downs · Dropped Trevor Etienne"},
+    {"team":"Revenge of the period bloods","manager":"Nate","type":"ADD_DROP","time":"Sep 6, 12:04 pm","faabSpent":null,"added":["Tyjae Spears"],"dropped":["Austin Ekeler"],"description":"Added Tyjae Spears · Dropped Austin Ekeler"},
+    {"team":"The Moose Knuckles","manager":"Jim","type":"WAIVER","time":"Sep 6, 12:19 am","faabSpent":1,"added":["Jake Bates"],"dropped":["Harrison Mevis"],"description":"Added Jake Bates · Dropped Harrison Mevis · $1 FAAB"},
+    {"team":"Criterus","manager":"Chris","type":"ADD_DROP","time":"Sep 3, 12:09 pm","faabSpent":null,"added":["Keaton Mitchell"],"dropped":[],"description":"Added Keaton Mitchell"},
+    {"team":"Pump and Go","manager":"Tommy","type":"ADD_DROP","time":"Sep 3, 9:40 am","faabSpent":null,"added":["Titans"],"dropped":["Travis Hunter"],"description":"Added Titans · Dropped Travis Hunter"},
+    {"team":"Predacious Fungi","manager":"Max","type":"ADD_DROP","time":"Sep 3, 7:13 am","faabSpent":null,"added":["Chase McLaughlin"],"dropped":[],"description":"Added Chase McLaughlin"},
+    {"team":"The Moose Knuckles","manager":"Jim","type":"ADD_DROP","time":"Sep 3, 6:06 am","faabSpent":null,"added":["Harrison Mevis"],"dropped":[],"description":"Added Harrison Mevis"},
+    {"team":"The Moose Knuckles","manager":"Jim","type":"ADD_DROP","time":"Sep 3, 6:05 am","faabSpent":null,"added":["Tank Dell"],"dropped":["Cairo Santos"],"description":"Added Tank Dell · Dropped Cairo Santos"},
+    {"team":"Predacious Fungi","manager":"Max","type":"WAIVER","time":"Sep 3, 12:18 am","faabSpent":0,"added":["James Conner"],"dropped":["Jake Bates"],"description":"Added James Conner · Dropped Jake Bates · $0 FAAB"},
+    {"team":"TDs In Your Face","manager":"Nick","type":"WAIVER","time":"Sep 3, 12:18 am","faabSpent":0,"added":["Mark Andrews"],"dropped":["Bo Nix"],"description":"Added Mark Andrews · Dropped Bo Nix · $0 FAAB"},
+    {"team":"TDs In Your Face","manager":"Nick","type":"WAIVER","time":"Sep 3, 12:18 am","faabSpent":1,"added":["Steelers"],"dropped":["49ers"],"description":"Added Steelers · Dropped 49ers · $1 FAAB"},
+    {"team":"Kareem all over your Hunt","manager":"Billy","type":"WAIVER","time":"Sep 3, 12:18 am","faabSpent":0,"added":["Jaguars"],"dropped":[],"description":"Added Jaguars · $0 FAAB"},
+    {"team":"The Eviscerators","manager":"Andrew","type":"WAIVER","time":"Sep 3, 12:18 am","faabSpent":5,"added":["Kaleb Johnson"],"dropped":["Wan'Dale Robinson"],"description":"Added Kaleb Johnson · Dropped Wan'Dale Robinson · $5 FAAB"}
+  ],
+  "roi":[
+    {"manager":"Billy","team":"Kareem all over your Hunt","moves":1,"points":13,"pointsPerMove":13,"grade":"A+","receipt":"Jaguars DEF: 13.0 starter points for $0 FAAB."},
+    {"manager":"TomD","team":"The Mustache riders","moves":2,"points":25.8,"pointsPerMove":12.9,"grade":"A+","receipt":"Isaiah Likely 22.8 + Chris Bell 3.0. Likely immediately became a Week 1 hammer."},
+    {"manager":"Nick","team":"TDs In Your Face","moves":2,"points":23.9,"pointsPerMove":11.95,"grade":"A","receipt":"Steelers DEF 18.0 + Mark Andrews 5.9; both started."},
+    {"manager":"Max","team":"Predacious Fungi","moves":2,"points":11,"pointsPerMove":5.5,"grade":"B+","receipt":"Chase McLaughlin supplied 11.0; James Conner produced 0.0."},
+    {"manager":"Nate","team":"Revenge of the period bloods","moves":2,"points":7.1,"pointsPerMove":3.55,"grade":"C+","receipt":"Josh Downs 4.7 + Tyjae Spears 2.4."},
+    {"manager":"Adam","team":"The A Gap","moves":2,"points":6.44,"pointsPerMove":3.22,"grade":"C+","receipt":"Bo Nix produced 6.44 after a rapid Kyler Murray add/drop cycle."},
+    {"manager":"Jim","team":"The Moose Knuckles","moves":3,"points":7,"pointsPerMove":2.33,"grade":"C","receipt":"Jake Bates supplied 7.0; the other churn did not add Week 1 scoring."},
+    {"manager":"Chris","team":"Criterus","moves":1,"points":1.84,"pointsPerMove":1.84,"grade":"C","receipt":"Keaton Mitchell produced 1.84."},
+    {"manager":"Andrew","team":"The Eviscerators","moves":1,"points":1.04,"pointsPerMove":1.04,"grade":"D+","receipt":"Kaleb Johnson produced 1.04 on the bench after a $5 bid."},
+    {"manager":"Tommy","team":"Pump and Go","moves":1,"points":0,"pointsPerMove":0,"grade":"F","receipt":"Titans DEF scored 0.0 in the starting lineup."}
+  ],
+  "acquisitionReceipts":[
+    {"manager":"TomD","player":"Isaiah Likely","move":"Added Sep 10","week1":22.8,"role":"Starter","receipt":"Instant smash; biggest acquisition return of Week 1."},
+    {"manager":"Nick","player":"Steelers DEF","move":"$1 waiver Sep 3","week1":18,"role":"Starter","receipt":"A 18-point defense hit immediately."},
+    {"manager":"Billy","player":"Jaguars DEF","move":"$0 waiver Sep 3","week1":13,"role":"Starter","receipt":"Zero-dollar claim helped produce the only model upset."},
+    {"manager":"Max","player":"Chase McLaughlin","move":"Added Sep 3","week1":11,"role":"Starter","receipt":"Good move inside an otherwise low-scoring lineup."},
+    {"manager":"Jim","player":"Jake Bates","move":"$1 waiver Sep 6","week1":7,"role":"Starter","receipt":"Useful return on a one-dollar kicker churn."},
+    {"manager":"Nick","player":"Mark Andrews","move":"$0 waiver Sep 3","week1":5.9,"role":"Starter","receipt":"Fixed the draft-day TE hole for free."},
+    {"manager":"Andrew","player":"Kaleb Johnson","move":"$5 waiver Sep 3","week1":1.04,"role":"Bench","receipt":"The week's largest FAAB spend produced little immediate return."},
+    {"manager":"Tommy","player":"Titans DEF","move":"Added Sep 3","week1":0,"role":"Starter","receipt":"The cleanest Week 1 transaction dud."}
+  ],
+  "prediction":{
+    "modelRecord":"4-1","yahooRecord":"4-1","modelAccuracy":80,"yahooAccuracy":80,"yahooScoreMAE":16.02,"yahooMarginMAE":27.02,
+    "note":"The Makers preseason model published winner probabilities, not exact score forecasts. Winner grading is official; exact Makers score-error grading begins once Thursday score projections are locked.",
+    "ledger":[
+      {"teamA":"Revenge of the period bloods","teamB":"The Eviscerators","projA":83.17,"projB":112.1,"scoreA":86.26,"scoreB":118.56,"modelPick":"The Eviscerators","modelProb":71.5,"yahooPick":"The Eviscerators","winner":"The Eviscerators","modelCorrect":true,"yahooCorrect":true,"yahooMarginError":3.37},
+      {"teamA":"The Moose Knuckles","teamB":"Predacious Fungi","projA":110.06,"projB":102.81,"scoreA":125.6,"scoreB":80.1,"modelPick":"The Moose Knuckles","modelProb":68.2,"yahooPick":"The Moose Knuckles","winner":"The Moose Knuckles","modelCorrect":true,"yahooCorrect":true,"yahooMarginError":38.25},
+      {"teamA":"TDs In Your Face","teamB":"Kareem all over your Hunt","projA":109.67,"projB":103.28,"scoreA":97.86,"scoreB":103.7,"modelPick":"TDs In Your Face","modelProb":55.8,"yahooPick":"TDs In Your Face","winner":"Kareem all over your Hunt","modelCorrect":false,"yahooCorrect":false,"yahooMarginError":12.23},
+      {"teamA":"Pump and Go","teamB":"The Mustache riders","projA":102.23,"projB":103.67,"scoreA":107.46,"scoreB":187.86,"modelPick":"The Mustache riders","modelProb":59.8,"yahooPick":"The Mustache riders","winner":"The Mustache riders","modelCorrect":true,"yahooCorrect":true,"yahooMarginError":78.96},
+      {"teamA":"Criterus","teamB":"The A Gap","projA":106.58,"projB":98.61,"scoreA":110.82,"scoreB":105.12,"modelPick":"Criterus","modelProb":58.3,"yahooPick":"Criterus","winner":"Criterus","modelCorrect":true,"yahooCorrect":true,"yahooMarginError":2.27}
+    ]
+  },
+  "race":[
+    {"tier":"POLE POSITION","teams":"The Eviscerators · The Moose Knuckles","copy":"Both are 1-0, both project above 113 in Week 2, and both clear 94% playoff equity in the Tuesday model."},
+    {"tier":"STRONG FIELD","teams":"Criterus · The Mustache riders","copy":"Chris holds a top-three Power Index; TomD owns the new scoring record and the biggest Week 1 market jump."},
+    {"tier":"IN THE SIX","teams":"Kareem all over your Hunt · Pump and Go","copy":"Billy has the win; Tommy has the stronger underlying Power Index despite drawing the record-setting opponent."},
+    {"tier":"BUBBLE","teams":"The A Gap · TDs In Your Face","copy":"Both lost close games and sit near 37% playoff equity. Neither is in emergency territory yet."},
+    {"tier":"EARLY TROUBLE","teams":"Revenge of the period bloods · Predacious Fungi","copy":"The two lowest Week 1 scores occupy the bottom of the Tuesday model and need usable points quickly."}
+  ],
+  "projectedField":{"byes":["The Eviscerators","The Moose Knuckles"],"playoffs":["The Eviscerators","The Moose Knuckles","Criterus","The Mustache riders","Kareem all over your Hunt","Pump and Go"],"firstOut":["The A Gap","TDs In Your Face"],"danger":["Revenge of the period bloods","Predacious Fungi"]},
+  "weeklyPulse":{"games":5,"avg":112.33,"high":"TomD 187.86","low":"Max 80.10","closest":"Chris +5.70","blowout":"TomD +80.40","moves":17,"recordBroken":"Highest modern-era regular-season weekly score"},
+  "timeline":[{"week":1,"title":"TomD breaks the scoreboard","copy":"The Mustache riders score 187.86, Billy upsets Nick, the Makers model and Yahoo both finish 4-1, and the season immediately gets a new record."}],
+  "career":[
+    {"manager":"Max","w":33,"l":24,"pf":5989.34,"pa":5684.84,"moves":256,"pct":57.9},
+    {"manager":"Nick","w":32,"l":25,"pf":6106.98,"pa":5742.71,"moves":237,"pct":56.1},
+    {"manager":"Andrew","w":32,"l":25,"pf":6115.94,"pa":5669.35,"moves":123,"pct":56.1},
+    {"manager":"Jim","w":32,"l":25,"pf":6050.51,"pa":5761.74,"moves":262,"pct":56.1},
+    {"manager":"Tommy","w":31,"l":26,"pf":5785.06,"pa":6008.91,"moves":73,"pct":54.4},
+    {"manager":"TomD","w":30,"l":27,"pf":6123.51,"pa":5832.84,"moves":108,"pct":52.6},
+    {"manager":"Nate","w":27,"l":30,"pf":5753.87,"pa":5904.06,"moves":72,"pct":47.4},
+    {"manager":"Adam","w":23,"l":34,"pf":5618.26,"pa":5917.64,"moves":109,"pct":40.4},
+    {"manager":"Chris","w":20,"l":37,"pf":5247.85,"pa":6001.56,"moves":85,"pct":35.1},
+    {"manager":"El Rubio","w":18,"l":24,"pf":4168.29,"pa":4299.5,"moves":31,"pct":42.9},
+    {"manager":"Billy","w":7,"l":8,"pf":1385.08,"pa":1557.54,"moves":15,"pct":46.7}
+  ],
+  "recordAudit":{"broken":[{"record":"Highest modern-era regular-season weekly score","holder":"TomD — The Mustache riders","number":"187.86","receipt":"Week 1, 2026 vs Pump and Go (107.46)."}],"checked":["Lowest weekly score","Biggest regular-season margin","Closest regular-season finish","Highest combined regular-season score","Win/loss streaks","Postseason records"],"note":"Week 1 broke one tracked modern-era record: weekly team score. The 80.40 margin, 5.70 closest game and 295.32 combined score did not replace the existing historical marks."},
+  "h2hUpdates":[
+    {"a":"Chris","b":"Adam","overallA":"4-4","regA":"3-4","poA":"1-0","overallB":"4-4","regB":"4-3","poB":"0-1"},
+    {"a":"Andrew","b":"Nate","overallA":"5-3","regA":"5-3","poA":"0-0","overallB":"3-5","regB":"3-5","poB":"0-0"},
+    {"a":"Jim","b":"Max","overallA":"7-2","regA":"6-1","poA":"1-1","overallB":"2-7","regB":"1-6","poB":"1-1"},
+    {"a":"Billy","b":"Nick","overallA":"2-1","regA":"2-1","poA":"0-0","overallB":"1-2","regB":"1-2","poB":"0-0"},
+    {"a":"TomD","b":"Tommy","overallA":"5-5","regA":"4-5","poA":"1-0","overallB":"5-5","regB":"5-4","poB":"0-1"}
+  ],
+  "receiptGames":[
+    {"week":"Week 1","teamA":"Revenge of the period bloods","managerA":"Nate","scoreA":86.26,"teamB":"The Eviscerators","managerB":"Andrew","scoreB":118.56},
+    {"week":"Week 1","teamA":"The Moose Knuckles","managerA":"Jim","scoreA":125.6,"teamB":"Predacious Fungi","managerB":"Max","scoreB":80.1},
+    {"week":"Week 1","teamA":"TDs In Your Face","managerA":"Nick","scoreA":97.86,"teamB":"Kareem all over your Hunt","managerB":"Billy","scoreB":103.7},
+    {"week":"Week 1","teamA":"Pump and Go","managerA":"Tommy","scoreA":107.46,"teamB":"The Mustache riders","managerB":"TomD","scoreB":187.86},
+    {"week":"Week 1","teamA":"Criterus","managerA":"Chris","scoreA":110.82,"teamB":"The A Gap","managerB":"Adam","scoreB":105.12}
+  ],
+  "modelMethod":"30,000 simulated seasons. Week 1 is fixed as played; Weeks 2–14 use the Tuesday Power Index, the real 2026 schedule, simulated scoring for PF tiebreaks, six-team playoff structure and no reseeding.",
+  "powerMethod":"Tuesday Power Index blends 45% preseason roster prior, 30% Week 1 actual performance and 25% current Week 2 Yahoo starter projection. Actual games gain weight as the season grows."
+};
