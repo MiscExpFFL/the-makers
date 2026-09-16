@@ -1,7 +1,7 @@
 THE MAKERS — 2026 WEEKLY UPDATE GUIDE
 
 LIVE SITE
-https://miscexpffl.github.io/the-makers/
+https://themakersffl.github.io/the-makers/
 
 ARCHITECTURE
 The 2026 live site now uses a Tuesday/Thursday publishing workflow layered on top of the locked historical archive.
@@ -82,4 +82,4 @@ HISTORY RULES
 - Completed results stay permanent and accumulate into H2H, career standings, records and franchise pages.
 
 DEPLOYMENT RULE
-Normal weekly updates are committed directly to the main branch of MiscExpFFL/the-makers. GitHub Pages deploys automatically from main. Manual ZIP replacement is not part of the normal workflow.
+Normal weekly updates are committed directly to the main branch of TheMakersFFL/the-makers. GitHub Pages deploys automatically from main. Manual ZIP replacement is not part of the normal workflow.

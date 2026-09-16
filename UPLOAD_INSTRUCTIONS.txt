@@ -1,0 +1,32 @@
+THE MAKERS — WEEK 1 FULL TUESDAY UPDATE
+Target repository: TheMakersFFL/the-makers
+Live site: https://themakersffl.github.io/the-makers/index.html
+
+WHAT THIS PACKAGE DOES
+- Publishes the full Week 1 Results Recap.
+- Advances the site to Week 2 Tuesday state.
+- Updates standings, Power Index, Race Dashboard, Projected Field, playoff/bye/title/toilet odds, Franchise Stock Market, team needs and waiver board.
+- Grades Makers vs Yahoo Week 1 predictions and updates the prediction ledger/report card.
+- Updates all-play, lineup efficiency, transaction ROI, acquisition receipts, activity efficiency/tape, season timeline and weekly pulse.
+- Updates schedule receipts, franchise dashboards, career standings, league ledger and Record Book audit.
+- Updates H2H and 2026 History through makers-static-tuesday.js loaded by site.js.
+- Adds Predictions and Analytics live pages.
+- Includes Makers Collector v1.2.5 with update/download URLs corrected to the real TheMakersFFL repository.
+
+HOW TO UPLOAD
+1. Open https://github.com/TheMakersFFL/the-makers
+2. Stay on the main branch.
+3. Choose Add file > Upload files.
+4. Drag ALL files from this folder into the repository root.
+5. GitHub will show some files as replacements and some as new files. That is expected.
+6. Commit directly to main with a message such as:
+   "Publish Makers Week 1 Tuesday update"
+7. Wait for GitHub Pages to finish deploying.
+8. Open https://themakersffl.github.io/the-makers/index.html and hard-refresh once if the old site is cached.
+
+IMPORTANT
+- Keep every file at the repository ROOT. Do not upload the enclosing folder itself.
+- Do not delete data.js or the older historical/archive files.
+- predictions.html, makers-week1-tuesday-data.js, makers-tuesday.js, makers-static-tuesday.js, and MAKERS_WEEKLY_UPDATE_CHECKLIST.md are NEW files and must be added.
+- Existing files such as index.html, weeks.html, week.html, season-2026.html, Power/Odds/Moves/Waivers/Schedule/Records/Franchise pages and site.js must be REPLACED by the versions in this package.
+- Thursday's next step is the post-waivers Week 2 preview and official Makers prediction lock.

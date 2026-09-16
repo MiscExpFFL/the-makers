@@ -1,7 +1,7 @@
 THE MAKERS — GITHUB PAGES SITE
 
 LIVE HOME
-https://miscexpffl.github.io/the-makers/
+https://themakersffl.github.io/the-makers/
 
 LEAGUE HISTORY
 - The Makers was founded in 2003.

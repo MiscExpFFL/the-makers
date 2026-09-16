@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Makers Weekly Collector — Tuesday + Thursday
-// @namespace    https://github.com/MiscExpFFL/the-makers/
+// @namespace    https://github.com/TheMakersFFL/the-makers/
 // @version      1.2.5
 // @description  Collect Yahoo Fantasy league data twice a week for The Makers, with verified matchup scores, clean lineups, projections, transactions and waiver data.
 // @match        https://football.fantasysports.yahoo.com/f1/*
@@ -12,8 +12,8 @@
 // @grant        GM_download
 // @grant        GM_setClipboard
 // @run-at       document-idle
-// @updateURL    https://raw.githubusercontent.com/MiscExpFFL/the-makers/main/Makers_Weekly_Collector.user.js
-// @downloadURL  https://raw.githubusercontent.com/MiscExpFFL/the-makers/main/Makers_Weekly_Collector.user.js
+// @updateURL    https://raw.githubusercontent.com/TheMakersFFL/the-makers/main/Makers_Weekly_Collector.user.js
+// @downloadURL  https://raw.githubusercontent.com/TheMakersFFL/the-makers/main/Makers_Weekly_Collector.user.js
 // ==/UserScript==
 
 (function(){
