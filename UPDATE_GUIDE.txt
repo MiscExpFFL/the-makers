@@ -1,32 +1,85 @@
 THE MAKERS — 2026 WEEKLY UPDATE GUIDE
 
-The site now uses the same central-season architecture as Misc.Exp.
+LIVE SITE
+https://miscexpffl.github.io/the-makers/
 
-PRIMARY FILE TO EDIT EACH WEEK
-  season-2026.js
+ARCHITECTURE
+The 2026 live site now uses a Tuesday/Thursday publishing workflow layered on top of the locked historical archive.
 
-Update these fields there:
-  - week / lastUpdated
-  - standings (W-L, PF, PA, moves, trades)
-  - weekly[week] (headline, writeup, matchups, Game of the Week, awards, shame watch, quote)
-  - powerRankings when the weekly Power Rankings change
-  - draftRankings stays frozen as the preseason draft verdict
-  - modelOdds if playoff/bye/title/toilet probabilities change
-  - faab / recentTransactions / topAvailable
+Historical baseline:
+  - data.js = 2022–2025 archive + locked 2026 draft/schedule/keeper baseline.
+  - Do not rewrite completed historical seasons during ordinary weekly maintenance.
 
-Those edits automatically feed:
-  - Homepage latest write-up
-  - Weekly Write-Ups hub
-  - Week 1–17 pages
-  - 2026 War Room
-  - Power Rankings
-  - Playoff Odds
-  - Moves & Trades
-  - Waiver Wire
-  - Record Book
+Current live-season layer:
+  - makers-week1-tuesday-data.js = validated Tuesday snapshot-derived data for the completed week and early next-week board.
+  - makers-tuesday.js = Tuesday render engine for the live pages.
+  - makers-static-tuesday.js = Tuesday patches for static archive pages such as H2H and History.
+  - site.js = shared static-page helpers and loader for the Tuesday static patch.
 
-YAHOO LIVE BRIDGE
-  api-config.js contains a blank waiverEndpoint. Keep Yahoo credentials off GitHub. When a secure backend is ready, only put the public endpoint URL in api-config.js.
+TUESDAY CLOSE — AFTER MNF
+1. Run the current Makers collector after the final Monday game is complete.
+2. Validate before publishing:
+   - 10/10 standings
+   - 5/5 completed matchups
+   - 10/10 completed lineups
+   - 10/10 score reconciliation
+   - 10/10 current rosters
+   - 5/5 next-week Yahoo projections
+   - 100/100 available-player pool
+   - structured transactions deduped and reconciled
+3. Freeze the completed-week receipts:
+   - final scores
+   - standings / PF / PA / streak
+   - all-play results
+   - lineup efficiency and optimal-lineup receipts
+   - weekly superlatives and Game of the Week
+   - Makers-vs-Yahoo prediction grading
+4. Rebuild the live Tuesday boards:
+   - Homepage Results Recap
+   - Weekly Write-Ups archive
+   - 2026 War Room
+   - Power Rankings / Power Index
+   - Playoff / bye / title / toilet odds
+   - Race Dashboard / Projected Field
+   - Franchise Stock Market
+   - What Everybody Needs
+   - Waiver Wire and FAAB / priority
+   - Moves / transaction tape
+   - Transaction ROI / acquisition receipts
+   - Predictions ledger
+   - Analytics / all-play / lineup efficiency
+   - Schedule roads with completed-week W/L receipts
+   - Franchise dashboards
+   - Career standings / League Ledger / Record Book audit
+   - H2H matrix and complete game log
+   - Season History active chapter
+5. Publish only the early Yahoo board for the next week on Tuesday. Do NOT lock Makers next-week winner or score picks yet.
+6. Commit to main and confirm GitHub Pages deploys successfully.
+7. Run final QA from the deployed artifact:
+   - node --check on every JS file
+   - all live routes render without JS exceptions
+   - internal links and referenced assets resolve
+   - Tuesday snapshot has 10 unique teams/managers, five completed games and five next-week matchups
 
-STATIC HISTORY FILE
-  data.js remains the historical 2022–2025 archive plus the locked 2026 draft/schedule/keeper baseline. Do not rewrite old history to perform ordinary weekly updates.
+THURSDAY PREVIEW — AFTER WAIVERS
+1. Refresh rosters, transactions, injuries/statuses and Yahoo projections.
+2. Publish the full next-week preview.
+3. Lock Makers winner picks and projected scores for all five games.
+4. Freeze the prediction receipt so it can be graded the following Tuesday.
+5. Update matchup analysis, Game of the Week, team needs and any materially changed power/odds context.
+6. Preserve the completed-week Tuesday recap in the archive.
+7. Commit to main and confirm Pages deployment + QA.
+
+PREDICTION RULE
+Tuesday = Yahoo early board only.
+Thursday = official Makers picks and projected scores lock.
+The locked Thursday receipt must not be rewritten after games begin.
+
+HISTORY RULES
+- Billy starts his own franchise history in 2025 and never inherits El Rubio's record.
+- League founding year is 2003.
+- Fully reconstructed modern-era statistical archive begins in 2022.
+- Completed results stay permanent and accumulate into H2H, career standings, records and franchise pages.
+
+DEPLOYMENT RULE
+Normal weekly updates are committed directly to the main branch of MiscExpFFL/the-makers. GitHub Pages deploys automatically from main. Manual ZIP replacement is not part of the normal workflow.
